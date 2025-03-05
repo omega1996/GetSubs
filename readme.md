@@ -29,6 +29,7 @@
 
 ```bash
 pip install yt_dlp webvtt-py requests
+```
 
 ### Запуск проекта
 
@@ -36,6 +37,7 @@ pip install yt_dlp webvtt-py requests
 
 ```bash
 python main.py
+```
 
 
 После этого откроется окно приложения, где вы сможете:
@@ -62,19 +64,22 @@ PyInstaller не поддерживает прямую кросс-компиля
 2. Установите зависимости:
 
 ```bash
-pip install yt_dlp webvtt-py requests```
+pip install yt_dlp webvtt-py requests
+```
 
 3. Установите PyInstaller:
 
 ```bash
-pip install pyinstaller```
+pip install pyinstaller
+```
 
 4. Соберите приложение:
 
 Перейдите в каталог с файлом `main.py` и выполните:
 
 ```bash
-pyinstaller --onefile --windowed main.py```
+pyinstaller --onefile --windowed main.py
+```
 
 
 После завершения сборки в папке dist появится файл main.exe. Этот файл можно переносить и запускать на компьютерах с Windows.
